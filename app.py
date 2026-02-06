@@ -1,9 +1,7 @@
 # ၁။ Repo ကို Clone လုပ်ပါ
-!git clone https://github.com/YOUR_USERNAME/wan2.2-kaggle-t4.git
-%cd wan2.2-kaggle-t4
-
+!git clone https://github.com/victorgeel/kaggleai.git
+%cd /kaggle/working/kaggleai
 # ၂။ လိုအပ်တဲ့ library တွေသွင်းပါ
-!pip install -r requirements.txt
-
+!pip install /kaggle/working/kaggleai/requirements.txt
 # ၃။ App ကို run ပါ
-!python app1.py
+!python /kaggle/working/kaggleai/app1.py
